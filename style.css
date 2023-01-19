@@ -50,7 +50,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 150ms;
+    
 }
+
 
 .dot {
     height: 5px;
@@ -91,23 +93,38 @@
 
 .dropdown{
     display: inline-block;
-    position: relative;
+    position: relative;  
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: absolute;  
+    background-color: rgb(24, 24, 24);
+}
+
+hr{
+    border-top: 1px solid;
+    height: 1px;
+    opacity: 10%;
 }
 
 .dropdown-content a{
     font-size: 12px;
     padding: 10px 15px;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
 }
 
 .dropdown:hover .dropdown-content {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .logo img{
