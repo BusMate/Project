@@ -52,6 +52,23 @@
     transition: 150ms;
 }
 
+/*dropdown*/
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo img{
     padding: 30px;
 }
